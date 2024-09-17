@@ -1,0 +1,1 @@
+-IC:/Users/Jean/CPPSFML/src -IC:/Users/Jean/CPPSFML/include -I"C:/Users/Jean/CPPSFML/build/_deps/sfml-src/src" -I"C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/vulkan" -isystem "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/include" -isystem "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/glad/include"
