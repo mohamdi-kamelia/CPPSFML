@@ -120,35 +120,35 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/Jean/CPPSFML/src"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/src"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/Jean/CPPSFML/include"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/src"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 8,
 					"isSystem" : true,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/include"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/minimp3"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/extlibs/headers/minimp3"
 				},
 				{
 					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/AL"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/extlibs/headers/AL"
 				},
 				{
 					"backtrace" : 4,
 					"isSystem" : true,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/extlibs/headers"
 				}
 			],
 			"language" : "CXX",

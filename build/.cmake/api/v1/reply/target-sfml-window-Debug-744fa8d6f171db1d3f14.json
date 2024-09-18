@@ -127,29 +127,29 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/Jean/CPPSFML/src"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/src"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/Jean/CPPSFML/include"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/src"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/vulkan"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/extlibs/headers/vulkan"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/include"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 11,
 					"isSystem" : true,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/glad/include"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/extlibs/headers/glad/include"
 				}
 			],
 			"language" : "CXX",

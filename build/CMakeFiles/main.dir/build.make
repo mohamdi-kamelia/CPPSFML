@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Jean\CPPSFML
+CMAKE_SOURCE_DIR = C:\Users\kamil\OneDrive\Bureau\CPPSFML
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Jean\CPPSFML\build
+CMAKE_BINARY_DIR = C:\Users\kamil\OneDrive\Bureau\CPPSFML\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -70,62 +70,79 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/main.cpp.obj: C:/Users/Jean/CPPSFML/main.cpp
+CMakeFiles/main.dir/main.cpp.obj: C:/Users/kamil/OneDrive/Bureau/CPPSFML/main.cpp
 CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jean\CPPSFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.obj"
-	C:\MinGW\winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.obj -MF CMakeFiles\main.dir\main.cpp.obj.d -o CMakeFiles\main.dir\main.cpp.obj -c C:\Users\Jean\CPPSFML\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kamil\OneDrive\Bureau\CPPSFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.obj"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.obj -MF CMakeFiles\main.dir\main.cpp.obj.d -o CMakeFiles\main.dir\main.cpp.obj -c C:\Users\kamil\OneDrive\Bureau\CPPSFML\main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	C:\MinGW\winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jean\CPPSFML\main.cpp > CMakeFiles\main.dir\main.cpp.i
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\OneDrive\Bureau\CPPSFML\main.cpp > CMakeFiles\main.dir\main.cpp.i
 
 CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	C:\MinGW\winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jean\CPPSFML\main.cpp -o CMakeFiles\main.dir\main.cpp.s
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kamil\OneDrive\Bureau\CPPSFML\main.cpp -o CMakeFiles\main.dir\main.cpp.s
 
 CMakeFiles/main.dir/src/GameObject.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/GameObject.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/src/GameObject.cpp.obj: C:/Users/Jean/CPPSFML/src/GameObject.cpp
+CMakeFiles/main.dir/src/GameObject.cpp.obj: C:/Users/kamil/OneDrive/Bureau/CPPSFML/src/GameObject.cpp
 CMakeFiles/main.dir/src/GameObject.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jean\CPPSFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/GameObject.cpp.obj"
-	C:\MinGW\winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/GameObject.cpp.obj -MF CMakeFiles\main.dir\src\GameObject.cpp.obj.d -o CMakeFiles\main.dir\src\GameObject.cpp.obj -c C:\Users\Jean\CPPSFML\src\GameObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kamil\OneDrive\Bureau\CPPSFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/GameObject.cpp.obj"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/GameObject.cpp.obj -MF CMakeFiles\main.dir\src\GameObject.cpp.obj.d -o CMakeFiles\main.dir\src\GameObject.cpp.obj -c C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\GameObject.cpp
 
 CMakeFiles/main.dir/src/GameObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/GameObject.cpp.i"
-	C:\MinGW\winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jean\CPPSFML\src\GameObject.cpp > CMakeFiles\main.dir\src\GameObject.cpp.i
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\GameObject.cpp > CMakeFiles\main.dir\src\GameObject.cpp.i
 
 CMakeFiles/main.dir/src/GameObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/GameObject.cpp.s"
-	C:\MinGW\winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jean\CPPSFML\src\GameObject.cpp -o CMakeFiles\main.dir\src\GameObject.cpp.s
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\GameObject.cpp -o CMakeFiles\main.dir\src\GameObject.cpp.s
+
+CMakeFiles/main.dir/src/InputManager.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/InputManager.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/InputManager.cpp.obj: C:/Users/kamil/OneDrive/Bureau/CPPSFML/src/InputManager.cpp
+CMakeFiles/main.dir/src/InputManager.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kamil\OneDrive\Bureau\CPPSFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/InputManager.cpp.obj"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/InputManager.cpp.obj -MF CMakeFiles\main.dir\src\InputManager.cpp.obj.d -o CMakeFiles\main.dir\src\InputManager.cpp.obj -c C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\InputManager.cpp
+
+CMakeFiles/main.dir/src/InputManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/InputManager.cpp.i"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\InputManager.cpp > CMakeFiles\main.dir\src\InputManager.cpp.i
+
+CMakeFiles/main.dir/src/InputManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/InputManager.cpp.s"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\InputManager.cpp -o CMakeFiles\main.dir\src\InputManager.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.obj" \
-"CMakeFiles/main.dir/src/GameObject.cpp.obj"
+"CMakeFiles/main.dir/src/GameObject.cpp.obj" \
+"CMakeFiles/main.dir/src/InputManager.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 bin/main.exe: CMakeFiles/main.dir/main.cpp.obj
 bin/main.exe: CMakeFiles/main.dir/src/GameObject.cpp.obj
+bin/main.exe: CMakeFiles/main.dir/src/InputManager.cpp.obj
 bin/main.exe: CMakeFiles/main.dir/build.make
 bin/main.exe: _deps/sfml-build/lib/libsfml-graphics-s-d.a
 bin/main.exe: _deps/sfml-build/lib/libsfml-audio-s-d.a
 bin/main.exe: _deps/sfml-build/lib/libsfml-window-s-d.a
-bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x86/libfreetype.a
-bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x86/libopenal32.a
+bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a
+bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a
 bin/main.exe: _deps/sfml-build/lib/libsfml-system-s-d.a
-bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x86/libvorbisenc.a
-bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x86/libvorbisfile.a
-bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x86/libvorbis.a
-bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x86/libogg.a
-bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x86/libFLAC.a
+bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a
+bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a
+bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a
+bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x64/libogg.a
+bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x64/libFLAC.a
 bin/main.exe: CMakeFiles/main.dir/linkLibs.rsp
 bin/main.exe: CMakeFiles/main.dir/objects1.rsp
 bin/main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Jean\CPPSFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin\main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\kamil\OneDrive\Bureau\CPPSFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin\main.exe"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copy OpenAL DLL"
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/bin/x86/openal32.dll C:/Users/Jean/CPPSFML/build/bin
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/extlibs/bin/x64/openal32.dll C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/bin
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +154,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Jean\CPPSFML C:\Users\Jean\CPPSFML C:\Users\Jean\CPPSFML\build C:\Users\Jean\CPPSFML\build C:\Users\Jean\CPPSFML\build\CMakeFiles\main.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\kamil\OneDrive\Bureau\CPPSFML C:\Users\kamil\OneDrive\Bureau\CPPSFML C:\Users\kamil\OneDrive\Bureau\CPPSFML\build C:\Users\kamil\OneDrive\Bureau\CPPSFML\build C:\Users\kamil\OneDrive\Bureau\CPPSFML\build\CMakeFiles\main.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main.dir/depend
 

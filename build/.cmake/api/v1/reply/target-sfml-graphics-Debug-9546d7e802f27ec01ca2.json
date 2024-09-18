@@ -128,35 +128,35 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/Jean/CPPSFML/src"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/src"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/Jean/CPPSFML/include"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/src"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/include"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/stb_image"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/extlibs/headers/stb_image"
 				},
 				{
 					"backtrace" : 11,
 					"isSystem" : true,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/glad/include"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/extlibs/headers/glad/include"
 				},
 				{
 					"backtrace" : 12,
 					"isSystem" : true,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/freetype2"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/extlibs/headers/freetype2"
 				}
 			],
 			"language" : "CXX",
@@ -226,35 +226,35 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/Jean/CPPSFML/src"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/src"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/Jean/CPPSFML/include"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/src"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/include"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/stb_image"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/extlibs/headers/stb_image"
 				},
 				{
 					"backtrace" : 11,
 					"isSystem" : true,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/glad/include"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/extlibs/headers/glad/include"
 				},
 				{
 					"backtrace" : 12,
 					"isSystem" : true,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/freetype2"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/extlibs/headers/freetype2"
 				}
 			],
 			"language" : "CXX",

@@ -1,1 +1,1 @@
--IC:/Users/Jean/CPPSFML/src -IC:/Users/Jean/CPPSFML/include -isystem "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/include"
+-IC:/Users/kamil/OneDrive/Bureau/CPPSFML/src -IC:/Users/kamil/OneDrive/Bureau/CPPSFML/include -isystem "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/include"

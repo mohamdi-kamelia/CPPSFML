@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Jean/CPPSFML/main.cpp" "CMakeFiles/main.dir/main.cpp.obj" "gcc" "CMakeFiles/main.dir/main.cpp.obj.d"
-  "C:/Users/Jean/CPPSFML/src/GameObject.cpp" "CMakeFiles/main.dir/src/GameObject.cpp.obj" "gcc" "CMakeFiles/main.dir/src/GameObject.cpp.obj.d"
+  "C:/Users/kamil/OneDrive/Bureau/CPPSFML/main.cpp" "CMakeFiles/main.dir/main.cpp.obj" "gcc" "CMakeFiles/main.dir/main.cpp.obj.d"
+  "C:/Users/kamil/OneDrive/Bureau/CPPSFML/src/GameObject.cpp" "CMakeFiles/main.dir/src/GameObject.cpp.obj" "gcc" "CMakeFiles/main.dir/src/GameObject.cpp.obj.d"
+  "C:/Users/kamil/OneDrive/Bureau/CPPSFML/src/InputManager.cpp" "CMakeFiles/main.dir/src/InputManager.cpp.obj" "gcc" "CMakeFiles/main.dir/src/InputManager.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

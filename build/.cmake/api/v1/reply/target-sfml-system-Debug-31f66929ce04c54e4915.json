@@ -93,19 +93,19 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/Jean/CPPSFML/src"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/src"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/Jean/CPPSFML/include"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/include"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/src"
+					"path" : "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/src"
 				}
 			],
 			"language" : "CXX",

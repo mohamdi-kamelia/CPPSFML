@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Jean/CPPSFML/build/_deps/sfml-src/src/SFML
+# Install script for directory: C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/src/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,17 +34,17 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/kamil/winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw64/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Jean/CPPSFML/build/_deps/sfml-build/src/SFML/System/cmake_install.cmake")
-  include("C:/Users/Jean/CPPSFML/build/_deps/sfml-build/src/SFML/Main/cmake_install.cmake")
-  include("C:/Users/Jean/CPPSFML/build/_deps/sfml-build/src/SFML/Window/cmake_install.cmake")
-  include("C:/Users/Jean/CPPSFML/build/_deps/sfml-build/src/SFML/Network/cmake_install.cmake")
-  include("C:/Users/Jean/CPPSFML/build/_deps/sfml-build/src/SFML/Graphics/cmake_install.cmake")
-  include("C:/Users/Jean/CPPSFML/build/_deps/sfml-build/src/SFML/Audio/cmake_install.cmake")
+  include("C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-build/src/SFML/System/cmake_install.cmake")
+  include("C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-build/src/SFML/Main/cmake_install.cmake")
+  include("C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-build/src/SFML/Window/cmake_install.cmake")
+  include("C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-build/src/SFML/Network/cmake_install.cmake")
+  include("C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-build/src/SFML/Graphics/cmake_install.cmake")
+  include("C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-build/src/SFML/Audio/cmake_install.cmake")
 
 endif()
 

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.cpp.obj.d"
   "CMakeFiles/main.dir/src/GameObject.cpp.obj"
   "CMakeFiles/main.dir/src/GameObject.cpp.obj.d"
+  "CMakeFiles/main.dir/src/InputManager.cpp.obj"
+  "CMakeFiles/main.dir/src/InputManager.cpp.obj.d"
   "bin/main.exe"
   "bin/main.exe.manifest"
   "bin/main.pdb"

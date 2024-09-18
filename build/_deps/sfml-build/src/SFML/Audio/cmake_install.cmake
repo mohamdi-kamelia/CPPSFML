@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Jean/CPPSFML/build/_deps/sfml-src/src/SFML/Audio
+# Install script for directory: C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/src/SFML/Audio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/kamil/winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw64/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Jean/CPPSFML/build/_deps/sfml-build/lib/libsfml-audio-s-d.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-build/lib/libsfml-audio-s-d.a")
 endif()
 
