@@ -102,7 +102,7 @@ add_library(Freetype INTERFACE IMPORTED)
 
 set_target_properties(Freetype PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/freetype2"
-  INTERFACE_LINK_LIBRARIES "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libfreetype.a"
+  INTERFACE_LINK_LIBRARIES "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw-ucrt/x64/libfreetype.a"
 )
 
 # Create imported target VORBIS
@@ -111,7 +111,7 @@ add_library(VORBIS INTERFACE IMPORTED)
 set_target_properties(VORBIS PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "OV_EXCLUDE_STATIC_CALLBACKS"
   INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers;C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers"
-  INTERFACE_LINK_LIBRARIES "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libvorbisenc.a;C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libvorbisfile.a;C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libvorbis.a;C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libogg.a"
+  INTERFACE_LINK_LIBRARIES "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a;C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a;C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a;C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a"
 )
 
 # Create imported target FLAC
@@ -120,7 +120,7 @@ add_library(FLAC INTERFACE IMPORTED)
 set_target_properties(FLAC PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "FLAC__NO_DLL"
   INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers"
-  INTERFACE_LINK_LIBRARIES "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libFLAC.a"
+  INTERFACE_LINK_LIBRARIES "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw-ucrt/x64/libFLAC.a"
 )
 
 # Create imported target sfml-audio

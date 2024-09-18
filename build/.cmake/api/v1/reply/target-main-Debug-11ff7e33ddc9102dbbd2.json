@@ -42,7 +42,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 23,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
@@ -177,7 +177,7 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 24,
+				"line" : 32,
 				"parent" : 0
 			}
 		]
@@ -188,7 +188,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++17"
+					"fragment" : "-g -std=gnu++20"
 				}
 			],
 			"defines" : 
@@ -221,12 +221,17 @@
 				[
 					26
 				],
-				"standard" : "17"
+				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
 			]
 		}
 	],
@@ -289,12 +294,12 @@
 			},
 			{
 				"backtrace" : 12,
-				"fragment" : "_deps\\sfml-src\\extlibs\\libs-mingw\\x86\\libfreetype.a",
+				"fragment" : "_deps\\sfml-src\\extlibs\\libs-mingw-ucrt\\x64\\libfreetype.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 14,
-				"fragment" : "_deps\\sfml-src\\extlibs\\libs-mingw\\x86\\libopenal32.a",
+				"fragment" : "_deps\\sfml-src\\extlibs\\libs-mingw\\x64\\libopenal32.a",
 				"role" : "libraries"
 			},
 			{
@@ -309,27 +314,27 @@
 			},
 			{
 				"backtrace" : 18,
-				"fragment" : "_deps\\sfml-src\\extlibs\\libs-mingw\\x86\\libvorbisenc.a",
+				"fragment" : "_deps\\sfml-src\\extlibs\\libs-mingw\\x64\\libvorbisenc.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 19,
-				"fragment" : "_deps\\sfml-src\\extlibs\\libs-mingw\\x86\\libvorbisfile.a",
+				"fragment" : "_deps\\sfml-src\\extlibs\\libs-mingw\\x64\\libvorbisfile.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 20,
-				"fragment" : "_deps\\sfml-src\\extlibs\\libs-mingw\\x86\\libvorbis.a",
+				"fragment" : "_deps\\sfml-src\\extlibs\\libs-mingw\\x64\\libvorbis.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 21,
-				"fragment" : "_deps\\sfml-src\\extlibs\\libs-mingw\\x86\\libogg.a",
+				"fragment" : "_deps\\sfml-src\\extlibs\\libs-mingw\\x64\\libogg.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 24,
-				"fragment" : "_deps\\sfml-src\\extlibs\\libs-mingw\\x86\\libFLAC.a",
+				"fragment" : "_deps\\sfml-src\\extlibs\\libs-mingw-ucrt\\x64\\libFLAC.a",
 				"role" : "libraries"
 			},
 			{
@@ -353,7 +358,12 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
 			]
 		}
 	],
@@ -369,6 +379,36 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/GameObject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Window.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Block.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Projectile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/RectangleShape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/CircleShape.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

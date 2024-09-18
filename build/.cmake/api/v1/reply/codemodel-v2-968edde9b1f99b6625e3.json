@@ -30,7 +30,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.sfml-build-Debug-dc6701c42ab3336ddb4c.json",
+					"jsonFile" : "directory-_deps.sfml-build-Debug-36b835b949ebf15cb8f9.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.7.2"
@@ -205,49 +205,49 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-2a6d1a78bad4bfd30c24.json",
+					"jsonFile" : "target-main-Debug-11ff7e33ddc9102dbbd2.json",
 					"name" : "main",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "sfml-audio::@a153e5727587c53fce98",
-					"jsonFile" : "target-sfml-audio-Debug-96e4b78646f087a62480.json",
+					"jsonFile" : "target-sfml-audio-Debug-b7b08bf9118b2f0f756b.json",
 					"name" : "sfml-audio",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-graphics::@98af38147d5fa7e70f61",
-					"jsonFile" : "target-sfml-graphics-Debug-43363b7f6f8aa85d7907.json",
+					"jsonFile" : "target-sfml-graphics-Debug-d2d91a8b1e7b6a5d9578.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "sfml-main::@81ec5539f1398dd625f6",
-					"jsonFile" : "target-sfml-main-Debug-add3b307b710da0c2cf5.json",
+					"jsonFile" : "target-sfml-main-Debug-7862493450af05821061.json",
 					"name" : "sfml-main",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "sfml-network::@d7f79968b2699e7782cb",
-					"jsonFile" : "target-sfml-network-Debug-0bb075456c9e0b5dea2b.json",
+					"jsonFile" : "target-sfml-network-Debug-f0b8eb8c7e0e75380d4a.json",
 					"name" : "sfml-network",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "sfml-system::@8cb1db2982443611e568",
-					"jsonFile" : "target-sfml-system-Debug-dc682e43a4ec5de8f666.json",
+					"jsonFile" : "target-sfml-system-Debug-1941be3016a292265a4a.json",
 					"name" : "sfml-system",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "sfml-window::@5730451e331e3690ae65",
-					"jsonFile" : "target-sfml-window-Debug-cf4596276f35f00ab189.json",
+					"jsonFile" : "target-sfml-window-Debug-d180a2518bc1311ff693.json",
 					"name" : "sfml-window",
 					"projectIndex" : 1
 				}

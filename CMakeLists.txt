@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.28)
 project(casse_brique LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
@@ -19,7 +19,15 @@ FetchContent_Declare(SFML
 FetchContent_MakeAvailable(SFML)
 
 file(COPY ${CMAKE_SOURCE_DIR}/assets DESTINATION ${CMAKE_BINARY_DIR})
-add_executable(main main.cpp src/GameObject.cpp)
+add_executable(main 
+            main.cpp 
+            src/GameObject.cpp
+            src/Window.cpp
+            src/Block.cpp
+            src/Projectile.cpp
+            src/RectangleShape.cpp
+            src/CircleShape.cpp)
+
 target_link_libraries(main PRIVATE sfml-graphics sfml-audio)
 target_compile_features(main PRIVATE cxx_std_17)
 

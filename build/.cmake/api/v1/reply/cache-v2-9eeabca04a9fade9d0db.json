@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/addr2line.exe"
+			"value" : "C:/msys64/ucrt64/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/ar.exe"
+			"value" : "C:/msys64/ucrt64/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -171,7 +171,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/g++.exe"
+			"value" : "C:/msys64/ucrt64/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -187,7 +187,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/gcc-ar.exe"
+			"value" : "C:/msys64/ucrt64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -203,7 +203,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/gcc-ranlib.exe"
+			"value" : "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -315,7 +315,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/gcc.exe"
+			"value" : "C:/msys64/ucrt64/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -331,7 +331,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/gcc-ar.exe"
+			"value" : "C:/msys64/ucrt64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -347,7 +347,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/gcc-ranlib.exe"
+			"value" : "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -459,7 +459,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/dlltool.exe"
+			"value" : "C:/msys64/ucrt64/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EDIT_COMMAND",
@@ -955,7 +955,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/ld.exe"
+			"value" : "C:/msys64/ucrt64/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -971,7 +971,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/mingw32-make.exe"
+			"value" : "C:/msys64/ucrt64/bin/mingw32-make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1067,7 +1067,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/nm.exe"
+			"value" : "C:/msys64/ucrt64/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/objcopy.exe"
+			"value" : "C:/msys64/ucrt64/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/objdump.exe"
+			"value" : "C:/msys64/ucrt64/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_OSX_DEPLOYMENT_TARGET",
@@ -1187,7 +1187,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/ranlib.exe"
+			"value" : "C:/msys64/ucrt64/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -1203,7 +1203,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/windres.exe"
+			"value" : "C:/msys64/ucrt64/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1311,7 +1311,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/readelf.exe"
+			"value" : "C:/msys64/ucrt64/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1531,7 +1531,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/winlibs-i686-posix-dwarf-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5/mingw32/bin/strip.exe"
+			"value" : "C:/msys64/ucrt64/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1803,7 +1803,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libFLAC.a][C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers][v()]"
+			"value" : "[C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw-ucrt/x64/libFLAC.a][C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenAL",
@@ -1815,7 +1815,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libopenal32.a][C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/AL][v()]"
+			"value" : "[C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a][C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers/AL][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
@@ -1839,7 +1839,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libvorbisenc.a;C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libvorbisfile.a;C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libvorbis.a;C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libogg.a][C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers][C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers][v()]"
+			"value" : "[C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a;C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a;C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a;C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a][C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers][C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/headers][v()]"
 		},
 		{
 			"name" : "FLAC_INCLUDE_DIR",
@@ -1871,7 +1871,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libFLAC.a"
+			"value" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw-ucrt/x64/libFLAC.a"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_freetype2",
@@ -1919,7 +1919,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libfreetype.a"
+			"value" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw-ucrt/x64/libfreetype.a"
 		},
 		{
 			"name" : "GIT_EXECUTABLE",
@@ -2015,7 +2015,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libogg.a"
+			"value" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a"
 		},
 		{
 			"name" : "OPENAL_INCLUDE_DIR",
@@ -2047,7 +2047,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libopenal32.a"
+			"value" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a"
 		},
 		{
 			"name" : "OPENGL_gl_LIBRARY",
@@ -2259,7 +2259,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "4"
+			"value" : "8"
 		},
 		{
 			"name" : "VORBISENC_LIBRARY",
@@ -2275,7 +2275,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libvorbisenc.a"
+			"value" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a"
 		},
 		{
 			"name" : "VORBISFILE_LIBRARY",
@@ -2291,7 +2291,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libvorbisfile.a"
+			"value" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a"
 		},
 		{
 			"name" : "VORBIS_INCLUDE_DIR",
@@ -2323,7 +2323,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x86/libvorbis.a"
+			"value" : "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a"
 		},
 		{
 			"name" : "WARNINGS_AS_ERRORS",

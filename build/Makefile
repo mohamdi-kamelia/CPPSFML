@@ -295,6 +295,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Block.obj: src/Block.cpp.obj
+.PHONY : src/Block.obj
+
+# target to build an object file
+src/Block.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Block.cpp.obj
+.PHONY : src/Block.cpp.obj
+
+src/Block.i: src/Block.cpp.i
+.PHONY : src/Block.i
+
+# target to preprocess a source file
+src/Block.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Block.cpp.i
+.PHONY : src/Block.cpp.i
+
+src/Block.s: src/Block.cpp.s
+.PHONY : src/Block.s
+
+# target to generate assembly for a file
+src/Block.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Block.cpp.s
+.PHONY : src/Block.cpp.s
+
+src/CircleShape.obj: src/CircleShape.cpp.obj
+.PHONY : src/CircleShape.obj
+
+# target to build an object file
+src/CircleShape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/CircleShape.cpp.obj
+.PHONY : src/CircleShape.cpp.obj
+
+src/CircleShape.i: src/CircleShape.cpp.i
+.PHONY : src/CircleShape.i
+
+# target to preprocess a source file
+src/CircleShape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/CircleShape.cpp.i
+.PHONY : src/CircleShape.cpp.i
+
+src/CircleShape.s: src/CircleShape.cpp.s
+.PHONY : src/CircleShape.s
+
+# target to generate assembly for a file
+src/CircleShape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/CircleShape.cpp.s
+.PHONY : src/CircleShape.cpp.s
+
 src/GameObject.obj: src/GameObject.cpp.obj
 .PHONY : src/GameObject.obj
 
@@ -318,6 +366,78 @@ src/GameObject.s: src/GameObject.cpp.s
 src/GameObject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/GameObject.cpp.s
 .PHONY : src/GameObject.cpp.s
+
+src/Projectile.obj: src/Projectile.cpp.obj
+.PHONY : src/Projectile.obj
+
+# target to build an object file
+src/Projectile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Projectile.cpp.obj
+.PHONY : src/Projectile.cpp.obj
+
+src/Projectile.i: src/Projectile.cpp.i
+.PHONY : src/Projectile.i
+
+# target to preprocess a source file
+src/Projectile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Projectile.cpp.i
+.PHONY : src/Projectile.cpp.i
+
+src/Projectile.s: src/Projectile.cpp.s
+.PHONY : src/Projectile.s
+
+# target to generate assembly for a file
+src/Projectile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Projectile.cpp.s
+.PHONY : src/Projectile.cpp.s
+
+src/RectangleShape.obj: src/RectangleShape.cpp.obj
+.PHONY : src/RectangleShape.obj
+
+# target to build an object file
+src/RectangleShape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/RectangleShape.cpp.obj
+.PHONY : src/RectangleShape.cpp.obj
+
+src/RectangleShape.i: src/RectangleShape.cpp.i
+.PHONY : src/RectangleShape.i
+
+# target to preprocess a source file
+src/RectangleShape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/RectangleShape.cpp.i
+.PHONY : src/RectangleShape.cpp.i
+
+src/RectangleShape.s: src/RectangleShape.cpp.s
+.PHONY : src/RectangleShape.s
+
+# target to generate assembly for a file
+src/RectangleShape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/RectangleShape.cpp.s
+.PHONY : src/RectangleShape.cpp.s
+
+src/Window.obj: src/Window.cpp.obj
+.PHONY : src/Window.obj
+
+# target to build an object file
+src/Window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Window.cpp.obj
+.PHONY : src/Window.cpp.obj
+
+src/Window.i: src/Window.cpp.i
+.PHONY : src/Window.i
+
+# target to preprocess a source file
+src/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Window.cpp.i
+.PHONY : src/Window.cpp.i
+
+src/Window.s: src/Window.cpp.s
+.PHONY : src/Window.s
+
+# target to generate assembly for a file
+src/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Window.cpp.s
+.PHONY : src/Window.cpp.s
 
 # Help Target
 help:
@@ -343,9 +463,24 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/Block.obj
+	@echo ... src/Block.i
+	@echo ... src/Block.s
+	@echo ... src/CircleShape.obj
+	@echo ... src/CircleShape.i
+	@echo ... src/CircleShape.s
 	@echo ... src/GameObject.obj
 	@echo ... src/GameObject.i
 	@echo ... src/GameObject.s
+	@echo ... src/Projectile.obj
+	@echo ... src/Projectile.i
+	@echo ... src/Projectile.s
+	@echo ... src/RectangleShape.obj
+	@echo ... src/RectangleShape.i
+	@echo ... src/RectangleShape.s
+	@echo ... src/Window.obj
+	@echo ... src/Window.i
+	@echo ... src/Window.s
 .PHONY : help
 
 

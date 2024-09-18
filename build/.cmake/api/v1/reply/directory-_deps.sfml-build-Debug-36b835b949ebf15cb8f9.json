@@ -37,13 +37,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 429,
+				"line" : 438,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 435,
+				"line" : 444,
 				"parent" : 0
 			},
 			{
@@ -105,7 +105,7 @@
 			"paths" : 
 			[
 				{
-					"from" : "build/_deps/sfml-src/extlibs/bin/x86",
+					"from" : "build/_deps/sfml-src/extlibs/bin/x64",
 					"to" : "."
 				}
 			],
@@ -118,7 +118,7 @@
 			"paths" : 
 			[
 				{
-					"from" : "build/_deps/sfml-src/extlibs/libs-mingw/x86",
+					"from" : "build/_deps/sfml-src/extlibs/libs-mingw/x64",
 					"to" : "."
 				}
 			],
