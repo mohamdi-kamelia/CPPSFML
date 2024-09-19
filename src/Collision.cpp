@@ -1,9 +1,11 @@
 #include "Collision.hpp"
 
+// Returns true if the block and projectile are colliding, false otherwise.
 bool Collision::checkCollision(std::shared_ptr<Block> block, std::shared_ptr<Projectile> projectile) {
     return block->getShape()->getBounds().intersects(projectile->getShape()->getBounds());
 }
 
+// Returns a string representing the side of the block that the projectile collided with. (top, bottom, left, right)
 std::string Collision::checkSide(std::shared_ptr<Block> block, std::shared_ptr<Projectile> projectile) {
     sf::FloatRect blockBounds = block->getShape()->getBounds();
     sf::FloatRect projectileBounds = projectile->getShape()->getBounds();

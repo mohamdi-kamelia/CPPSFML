@@ -24,7 +24,7 @@ int main() {
 
     while (window.isOpen()) {
         window.pollEvents();
-        
+            
         deltaTime = window.getDeltaTime();
         projectile->move(deltaTime, projectile->getDirection());
 

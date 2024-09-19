@@ -23,6 +23,7 @@ void GameObject::draw(sf::RenderWindow &window) {
     shape->draw(window);
 }
 
+// Move the GameObject in the direction specified by the parameter
 void GameObject::move(float deltaTime, sf::Vector2f direction) {
     x += direction.x * speed * deltaTime;
     y += direction.y * speed * deltaTime;

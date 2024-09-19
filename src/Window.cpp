@@ -30,10 +30,12 @@ void Window::pollEvents() {
     }
 }
 
+// Adds a projectile to the window
 void Window::addProjectile(std::shared_ptr<Projectile> projectile) {
     projectiles.push_back(projectile);
 }
 
+// Adds a block to the window
 void Window::addBlock(std::shared_ptr<Block> block) {
     blocks.push_back(block);
 }

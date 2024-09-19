@@ -12,10 +12,12 @@ sf::Vector2f Projectile::getDirection() {
     return direction;
 }
 
+// Inverts the x direction of the projectile
 void Projectile::bounceX() {
     direction.x = -direction.x;
 }
 
+// Inverts the y direction of the projectile
 void Projectile::bounceY() {
     direction.y = -direction.y;
 }
