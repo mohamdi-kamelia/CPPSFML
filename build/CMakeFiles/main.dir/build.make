@@ -113,11 +113,91 @@ CMakeFiles/main.dir/src/InputManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/InputManager.cpp.s"
 	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\InputManager.cpp -o CMakeFiles\main.dir\src\InputManager.cpp.s
 
+CMakeFiles/main.dir/src/Window.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Window.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Window.cpp.obj: C:/Users/kamil/OneDrive/Bureau/CPPSFML/src/Window.cpp
+CMakeFiles/main.dir/src/Window.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kamil\OneDrive\Bureau\CPPSFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/Window.cpp.obj"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Window.cpp.obj -MF CMakeFiles\main.dir\src\Window.cpp.obj.d -o CMakeFiles\main.dir\src\Window.cpp.obj -c C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\Window.cpp
+
+CMakeFiles/main.dir/src/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Window.cpp.i"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\Window.cpp > CMakeFiles\main.dir\src\Window.cpp.i
+
+CMakeFiles/main.dir/src/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Window.cpp.s"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\Window.cpp -o CMakeFiles\main.dir\src\Window.cpp.s
+
+CMakeFiles/main.dir/src/Block.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Block.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Block.cpp.obj: C:/Users/kamil/OneDrive/Bureau/CPPSFML/src/Block.cpp
+CMakeFiles/main.dir/src/Block.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kamil\OneDrive\Bureau\CPPSFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/Block.cpp.obj"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Block.cpp.obj -MF CMakeFiles\main.dir\src\Block.cpp.obj.d -o CMakeFiles\main.dir\src\Block.cpp.obj -c C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\Block.cpp
+
+CMakeFiles/main.dir/src/Block.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Block.cpp.i"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\Block.cpp > CMakeFiles\main.dir\src\Block.cpp.i
+
+CMakeFiles/main.dir/src/Block.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Block.cpp.s"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\Block.cpp -o CMakeFiles\main.dir\src\Block.cpp.s
+
+CMakeFiles/main.dir/src/Projectile.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Projectile.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Projectile.cpp.obj: C:/Users/kamil/OneDrive/Bureau/CPPSFML/src/Projectile.cpp
+CMakeFiles/main.dir/src/Projectile.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kamil\OneDrive\Bureau\CPPSFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/Projectile.cpp.obj"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Projectile.cpp.obj -MF CMakeFiles\main.dir\src\Projectile.cpp.obj.d -o CMakeFiles\main.dir\src\Projectile.cpp.obj -c C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\Projectile.cpp
+
+CMakeFiles/main.dir/src/Projectile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Projectile.cpp.i"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\Projectile.cpp > CMakeFiles\main.dir\src\Projectile.cpp.i
+
+CMakeFiles/main.dir/src/Projectile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Projectile.cpp.s"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\Projectile.cpp -o CMakeFiles\main.dir\src\Projectile.cpp.s
+
+CMakeFiles/main.dir/src/RectangleShape.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/RectangleShape.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/RectangleShape.cpp.obj: C:/Users/kamil/OneDrive/Bureau/CPPSFML/src/RectangleShape.cpp
+CMakeFiles/main.dir/src/RectangleShape.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kamil\OneDrive\Bureau\CPPSFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/RectangleShape.cpp.obj"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/RectangleShape.cpp.obj -MF CMakeFiles\main.dir\src\RectangleShape.cpp.obj.d -o CMakeFiles\main.dir\src\RectangleShape.cpp.obj -c C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\RectangleShape.cpp
+
+CMakeFiles/main.dir/src/RectangleShape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/RectangleShape.cpp.i"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\RectangleShape.cpp > CMakeFiles\main.dir\src\RectangleShape.cpp.i
+
+CMakeFiles/main.dir/src/RectangleShape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/RectangleShape.cpp.s"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\RectangleShape.cpp -o CMakeFiles\main.dir\src\RectangleShape.cpp.s
+
+CMakeFiles/main.dir/src/CircleShape.Cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/CircleShape.Cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/CircleShape.Cpp.obj: C:/Users/kamil/OneDrive/Bureau/CPPSFML/src/CircleShape.Cpp
+CMakeFiles/main.dir/src/CircleShape.Cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kamil\OneDrive\Bureau\CPPSFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/CircleShape.Cpp.obj"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/CircleShape.Cpp.obj -MF CMakeFiles\main.dir\src\CircleShape.Cpp.obj.d -o CMakeFiles\main.dir\src\CircleShape.Cpp.obj -c C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\CircleShape.Cpp
+
+CMakeFiles/main.dir/src/CircleShape.Cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/CircleShape.Cpp.i"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\CircleShape.Cpp > CMakeFiles\main.dir\src\CircleShape.Cpp.i
+
+CMakeFiles/main.dir/src/CircleShape.Cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/CircleShape.Cpp.s"
+	C:\Users\kamil\winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kamil\OneDrive\Bureau\CPPSFML\src\CircleShape.Cpp -o CMakeFiles\main.dir\src\CircleShape.Cpp.s
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.obj" \
 "CMakeFiles/main.dir/src/GameObject.cpp.obj" \
-"CMakeFiles/main.dir/src/InputManager.cpp.obj"
+"CMakeFiles/main.dir/src/InputManager.cpp.obj" \
+"CMakeFiles/main.dir/src/Window.cpp.obj" \
+"CMakeFiles/main.dir/src/Block.cpp.obj" \
+"CMakeFiles/main.dir/src/Projectile.cpp.obj" \
+"CMakeFiles/main.dir/src/RectangleShape.cpp.obj" \
+"CMakeFiles/main.dir/src/CircleShape.Cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -125,6 +205,11 @@ main_EXTERNAL_OBJECTS =
 bin/main.exe: CMakeFiles/main.dir/main.cpp.obj
 bin/main.exe: CMakeFiles/main.dir/src/GameObject.cpp.obj
 bin/main.exe: CMakeFiles/main.dir/src/InputManager.cpp.obj
+bin/main.exe: CMakeFiles/main.dir/src/Window.cpp.obj
+bin/main.exe: CMakeFiles/main.dir/src/Block.cpp.obj
+bin/main.exe: CMakeFiles/main.dir/src/Projectile.cpp.obj
+bin/main.exe: CMakeFiles/main.dir/src/RectangleShape.cpp.obj
+bin/main.exe: CMakeFiles/main.dir/src/CircleShape.Cpp.obj
 bin/main.exe: CMakeFiles/main.dir/build.make
 bin/main.exe: _deps/sfml-build/lib/libsfml-graphics-s-d.a
 bin/main.exe: _deps/sfml-build/lib/libsfml-audio-s-d.a
@@ -140,7 +225,7 @@ bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x64/libFLAC.a
 bin/main.exe: CMakeFiles/main.dir/linkLibs.rsp
 bin/main.exe: CMakeFiles/main.dir/objects1.rsp
 bin/main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\kamil\OneDrive\Bureau\CPPSFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin\main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\kamil\OneDrive\Bureau\CPPSFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable bin\main.exe"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copy OpenAL DLL"
 	"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/_deps/sfml-src/extlibs/bin/x64/openal32.dll C:/Users/kamil/OneDrive/Bureau/CPPSFML/build/bin
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
