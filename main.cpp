@@ -14,7 +14,7 @@ int main() {
     auto rectangleShape = std::make_shared<RectangleShape>(1000, 100, 50, 50, sf::Color::Red);
     auto circleShape = std::make_shared<CircleShape>(200, 200, 25, sf::Color::Blue);
 
-    auto projectile = std::make_shared<Projectile>(100, 100, 400, circleShape, 0);
+    auto projectile = std::make_shared<Projectile>(550, 600, 400, circleShape, sf::Vector2f(1,-1));
     auto block = std::make_shared<Block>(200, 200, 0, rectangleShape);
 
     window.addProjectile(projectile);
@@ -29,10 +29,16 @@ int main() {
         projectile->move(deltaTime, projectile->getDirection());
 
         if (Collision::checkCollision(block, projectile)) {
-            std::cout << "Collision detected" << std::endl;
+            std::string side = Collision::checkSide(block, projectile);
+            if (side == "top" || side == "bottom") {
+                projectile->bounceY();
+            } else {
+                projectile->bounceX();
+            }
         }
 
         window.draw();
+        std::cout << projectile->getDirection().x << " " << projectile->getDirection().y << std::endl;
         
     }
     return 0;

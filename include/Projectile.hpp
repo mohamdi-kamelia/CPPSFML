@@ -5,12 +5,14 @@
 
 class Projectile : public GameObject {
     public:
-        Projectile(float x, float y, int speed, std::shared_ptr<Shape> shape, float direction);
+        Projectile(float x, float y, int speed, std::shared_ptr<Shape> shape, sf::Vector2f direction);
         std::shared_ptr<Shape> getShape();
-        float getDirection();
+        sf::Vector2f getDirection();
+        void bounceX();
+        void bounceY();
 
     private:
-        float direction;
+        sf::Vector2f direction;
 
 };
 

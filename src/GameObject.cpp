@@ -23,12 +23,8 @@ void GameObject::draw(sf::RenderWindow &window) {
     shape->draw(window);
 }
 
-void GameObject::move(float deltaTime, float direction) {
-    float radians = direction * (3.14159265 / 180.0);
-    float dx = speed * deltaTime * cos(radians);
-    float dy = speed * deltaTime * sin(radians);
-    x += dx;
-    y += dy;
-
+void GameObject::move(float deltaTime, sf::Vector2f direction) {
+    x += direction.x * speed * deltaTime;
+    y += direction.y * speed * deltaTime;
     shape->setPosition(x, y);
 }
