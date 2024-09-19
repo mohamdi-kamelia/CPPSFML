@@ -343,6 +343,30 @@ src/CircleShape.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/CircleShape.cpp.s
 .PHONY : src/CircleShape.cpp.s
 
+src/Collision.obj: src/Collision.cpp.obj
+.PHONY : src/Collision.obj
+
+# target to build an object file
+src/Collision.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Collision.cpp.obj
+.PHONY : src/Collision.cpp.obj
+
+src/Collision.i: src/Collision.cpp.i
+.PHONY : src/Collision.i
+
+# target to preprocess a source file
+src/Collision.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Collision.cpp.i
+.PHONY : src/Collision.cpp.i
+
+src/Collision.s: src/Collision.cpp.s
+.PHONY : src/Collision.s
+
+# target to generate assembly for a file
+src/Collision.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Collision.cpp.s
+.PHONY : src/Collision.cpp.s
+
 src/GameObject.obj: src/GameObject.cpp.obj
 .PHONY : src/GameObject.obj
 
@@ -469,6 +493,9 @@ help:
 	@echo ... src/CircleShape.obj
 	@echo ... src/CircleShape.i
 	@echo ... src/CircleShape.s
+	@echo ... src/Collision.obj
+	@echo ... src/Collision.i
+	@echo ... src/Collision.s
 	@echo ... src/GameObject.obj
 	@echo ... src/GameObject.i
 	@echo ... src/GameObject.s

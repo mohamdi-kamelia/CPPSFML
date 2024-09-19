@@ -26,7 +26,8 @@ add_executable(main
             src/Block.cpp
             src/Projectile.cpp
             src/RectangleShape.cpp
-            src/CircleShape.cpp)
+            src/CircleShape.cpp
+            src/Collision.cpp)
 
 target_link_libraries(main PRIVATE sfml-graphics sfml-audio)
 target_compile_features(main PRIVATE cxx_std_17)
