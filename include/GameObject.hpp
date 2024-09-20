@@ -19,6 +19,8 @@ class GameObject {
         int getSpeed();
         void draw(sf::RenderWindow &window);
         void move(float deltaTime, sf::Vector2f direction);
+        void setX(float x);
+        void setY(float y);
 
 };
 

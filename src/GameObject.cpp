@@ -15,6 +15,14 @@ float GameObject::getY() {
     return y;
 }
 
+void GameObject::setX(float x) {
+    this->x = x;
+}
+
+void GameObject::setY(float y) {
+    this->y = y;
+}
+
 int GameObject::getSpeed() {
     return speed;
 }

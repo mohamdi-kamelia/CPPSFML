@@ -9,7 +9,10 @@
 #include <iostream>
 
 int main() {
-    Window window(1920, 1080, "Casse Brique");
+    const int screenWidth = 1920;
+    const int screenHeight = 1080;
+
+    Window window(screenWidth, screenHeight, "Casse Brique");
 
     auto rectangleShape = std::make_shared<RectangleShape>(1000, 100, 50, 50, sf::Color::Red);
     auto circleShape = std::make_shared<CircleShape>(200, 200, 25, sf::Color::Blue);
@@ -30,6 +33,15 @@ int main() {
 
         if (Collision::checkCollision(block, projectile)) {
             std::string side = Collision::checkSide(block, projectile);
+            if (side == "top" || side == "bottom") {
+                projectile->bounceY();
+            } else {
+                projectile->bounceX();
+            }
+        }
+
+        if (Collision::checkBorderCollision(projectile, screenWidth, screenHeight) != "") {
+            std::string side = Collision::checkBorderCollision(projectile, screenWidth, screenHeight);
             if (side == "top" || side == "bottom") {
                 projectile->bounceY();
             } else {
