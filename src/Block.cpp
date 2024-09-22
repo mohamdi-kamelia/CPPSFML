@@ -26,7 +26,7 @@ void Block::calculateColor() {
     if (life == 3) {
         setColor(sf::Color::Green);
     } else if (life == 2) {
-        setColor(sf::Color::Yellow);
+        setColor(sf::Color::Blue);
     } else if (life == 1) {
         setColor(sf::Color::Red);
     }
