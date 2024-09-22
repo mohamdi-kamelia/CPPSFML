@@ -12,6 +12,7 @@ public:
     void draw(sf::RenderWindow& window) override;
     sf::FloatRect getBounds() override;
     void setPosition(float x, float y) override;
+    void setColor(sf::Color color);
 };
 
 #endif

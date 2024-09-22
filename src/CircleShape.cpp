@@ -17,3 +17,7 @@ sf::FloatRect CircleShape::getBounds() {
 void CircleShape::setPosition(float x, float y) {
     circle.setPosition(x, y);
 }
+
+void CircleShape::setColor(sf::Color color) {
+    circle.setFillColor(color);
+}

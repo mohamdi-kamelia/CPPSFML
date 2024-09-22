@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Jean/CPPSFML/src/Block.cpp" "CMakeFiles/main.dir/src/Block.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Block.cpp.obj.d"
   "C:/Users/Jean/CPPSFML/src/CircleShape.cpp" "CMakeFiles/main.dir/src/CircleShape.cpp.obj" "gcc" "CMakeFiles/main.dir/src/CircleShape.cpp.obj.d"
   "C:/Users/Jean/CPPSFML/src/Collision.cpp" "CMakeFiles/main.dir/src/Collision.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Collision.cpp.obj.d"
+  "C:/Users/Jean/CPPSFML/src/Game.cpp" "CMakeFiles/main.dir/src/Game.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Game.cpp.obj.d"
   "C:/Users/Jean/CPPSFML/src/GameObject.cpp" "CMakeFiles/main.dir/src/GameObject.cpp.obj" "gcc" "CMakeFiles/main.dir/src/GameObject.cpp.obj.d"
   "C:/Users/Jean/CPPSFML/src/Projectile.cpp" "CMakeFiles/main.dir/src/Projectile.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Projectile.cpp.obj.d"
   "C:/Users/Jean/CPPSFML/src/RectangleShape.cpp" "CMakeFiles/main.dir/src/RectangleShape.cpp.obj" "gcc" "CMakeFiles/main.dir/src/RectangleShape.cpp.obj.d"

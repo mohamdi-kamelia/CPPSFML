@@ -4,7 +4,7 @@ Window::Window(int width, int height, std::string title) {
     window.create(sf::VideoMode(width, height), title);
 }
 
-void Window::draw() {
+void Window::draw(std::vector<std::shared_ptr<Projectile>> projectiles, std::vector<std::shared_ptr<Block>> blocks) {
     window.clear();
 
     for (std::shared_ptr<Projectile> projectile : projectiles) {
@@ -30,16 +30,14 @@ void Window::pollEvents() {
     }
 }
 
-// Adds a projectile to the window
-void Window::addProjectile(std::shared_ptr<Projectile> projectile) {
-    projectiles.push_back(projectile);
-}
-
-// Adds a block to the window
-void Window::addBlock(std::shared_ptr<Block> block) {
-    blocks.push_back(block);
-}
-
 float Window::getDeltaTime() {
     return clock.restart().asSeconds();
+}
+
+int Window::getWidth() {
+    return window.getSize().x;
+}
+
+int Window::getHeight() {
+    return window.getSize().y;
 }

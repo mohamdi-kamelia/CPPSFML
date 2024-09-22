@@ -14,19 +14,17 @@ class Window {
     private:
         sf::RenderWindow window;
         sf::Event event;
-        std::vector<std::shared_ptr<Projectile>> projectiles;
-        std::vector<std::shared_ptr<Block>> blocks;
         sf::Clock clock;
         float deltaTime;
 
     public:
         Window(int width, int height, std::string title);
-        void draw();
+        void draw(std::vector<std::shared_ptr<Projectile>> projectiles, std::vector<std::shared_ptr<Block>> blocks);
         bool isOpen();
         void pollEvents();
-        void addProjectile(std::shared_ptr<Projectile> projectile);
-        void addBlock(std::shared_ptr<Block> block);
         float getDeltaTime();
+        int getWidth();
+        int getHeight();
 };
 
 #endif

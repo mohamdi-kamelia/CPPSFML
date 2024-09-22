@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/CircleShape.cpp.obj.d"
   "CMakeFiles/main.dir/src/Collision.cpp.obj"
   "CMakeFiles/main.dir/src/Collision.cpp.obj.d"
+  "CMakeFiles/main.dir/src/Game.cpp.obj"
+  "CMakeFiles/main.dir/src/Game.cpp.obj.d"
   "CMakeFiles/main.dir/src/GameObject.cpp.obj"
   "CMakeFiles/main.dir/src/GameObject.cpp.obj.d"
   "CMakeFiles/main.dir/src/Projectile.cpp.obj"

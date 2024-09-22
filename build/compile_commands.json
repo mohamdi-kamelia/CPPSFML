@@ -48,6 +48,12 @@
   "output": "CMakeFiles/main.dir/src/Collision.cpp.obj"
 },
 {
+  "directory": "C:/Users/Jean/CPPSFML/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\main.dir\\src\\Game.cpp.obj -c C:\\Users\\Jean\\CPPSFML\\src\\Game.cpp",
+  "file": "C:/Users/Jean/CPPSFML/src/Game.cpp",
+  "output": "CMakeFiles/main.dir/src/Game.cpp.obj"
+},
+{
   "directory": "C:/Users/Jean/CPPSFML/build/_deps/sfml-build/src/SFML/System",
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp -g -std=gnu++20  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-system.dir\\Clock.cpp.obj -c C:\\Users\\Jean\\CPPSFML\\build\\_deps\\sfml-src\\src\\SFML\\System\\Clock.cpp",
   "file": "C:/Users/Jean/CPPSFML/build/_deps/sfml-src/src/SFML/System/Clock.cpp",

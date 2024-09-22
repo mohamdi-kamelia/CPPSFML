@@ -17,3 +17,7 @@ sf::FloatRect RectangleShape::getBounds() {
 void RectangleShape::setPosition(float x, float y) {
     rectangle.setPosition(x, y);
 }
+
+void RectangleShape::setColor(sf::Color color) {
+    rectangle.setFillColor(color);
+}
