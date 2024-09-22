@@ -1,6 +1,5 @@
 #include "Game.hpp"
 
-// Constructor
 Game::Game() {
 }
 
@@ -11,40 +10,68 @@ void Game::run(Window& window) {
 
         deltaTime = window.getDeltaTime();
 
+        // Move projectiles and handle border collisions
         for (std::shared_ptr<Projectile> projectile : projectiles) {
             projectile->move(deltaTime, projectile->getDirection());
-            if (Collision::checkBorderCollision(projectile, window.getWidth(), window.getHeight()) != "") {
-                std::string side = Collision::checkBorderCollision(projectile, window.getWidth(), window.getHeight());
-                if (side == "top" || side == "bottom") {
-                    projectile->bounceY();
-                } else {
-                    projectile->bounceX();
-                }
+            std::string side = Collision::checkBorderCollision(projectile, window.getWidth(), window.getHeight());
+            if (side == "top" || side == "bottom") {
+                projectile->bounceY();
+            } else if (side == "left" || side == "right") {
+                projectile->bounceX();
             }
-    }
+        }
 
+        // Store collision results
+        std::vector<std::pair<std::shared_ptr<Block>, std::shared_ptr<Projectile>>> collisions;
+        std::vector<std::shared_ptr<Block>> blocksToRemove;
+
+        // Detect collisions
         for (std::shared_ptr<Block> block : blocks) {
             for (std::shared_ptr<Projectile> projectile : projectiles) {
-                 if (Collision::checkCollision(block, projectile)) {
-                    std::string side = Collision::checkSide(block, projectile);
-                    if (side == "top" || side == "bottom") {
-                        projectile->bounceY();
-                    } else {
-                        projectile->bounceX();
-                    }
-                    block->handleHit();
-                    if (block->isDestroyed()) {
-                        removeBlock(block);
-                    }
+                if (Collision::checkCollision(block, projectile)) {
+                    collisions.push_back({block, projectile});
                 }
             }
-        }     
+        }
 
+        // Handle collisions
+        for (auto& collision : collisions) {
+            std::shared_ptr<Block> block = collision.first;
+            std::shared_ptr<Projectile> projectile = collision.second;
+
+            std::string side = Collision::checkSide(block, projectile);
+            // Makes the projectile bounce and move it to the edge of the block to prevent it from getting stuck and trigger the collision again
+            if (side == "top" || side == "bottom") {
+                projectile->bounceY();
+                if (side == "top") {
+                    projectile->setY(block->getShape()->getBounds().top - projectile->getShape()->getBounds().height);
+                } else {
+                    projectile->setY(block->getShape()->getBounds().top + block->getShape()->getBounds().height);
+                }
+            } else if (side == "left" || side == "right") {
+                projectile->bounceX();
+                if (side == "left") {
+                    projectile->setX(block->getShape()->getBounds().left - projectile->getShape()->getBounds().width);
+                } else {
+                    projectile->setX(block->getShape()->getBounds().left + block->getShape()->getBounds().width);
+                }
+            }
+
+            block->handleHit();
+            if (block->isDestroyed()) {
+                blocksToRemove.push_back(block);
+            }
+        }
+
+        // Remove destroyed blocks
+        for (std::shared_ptr<Block> block : blocksToRemove) {
+            removeBlock(block);
+        }
+
+        // Draw the window
         window.draw(projectiles, blocks);
-        
     }
 }
-
 
 // Adds a projectile to the Game
 void Game::addProjectile(std::shared_ptr<Projectile> projectile) {
@@ -58,5 +85,9 @@ void Game::addBlock(std::shared_ptr<Block> block) {
 
 // Removes a block from the Game
 void Game::removeBlock(std::shared_ptr<Block> block) {
-    blocks.erase(std::remove(blocks.begin(), blocks.end(), block));
+    blocks.erase(std::remove(blocks.begin(), blocks.end(), block), blocks.end());
+}
+
+void Game::setBlocks(std::vector<std::shared_ptr<Block>> blocks) {
+    this->blocks = blocks;
 }

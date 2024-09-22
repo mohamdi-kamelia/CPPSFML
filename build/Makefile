@@ -415,6 +415,30 @@ src/GameObject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/GameObject.cpp.s
 .PHONY : src/GameObject.cpp.s
 
+src/Grid.obj: src/Grid.cpp.obj
+.PHONY : src/Grid.obj
+
+# target to build an object file
+src/Grid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Grid.cpp.obj
+.PHONY : src/Grid.cpp.obj
+
+src/Grid.i: src/Grid.cpp.i
+.PHONY : src/Grid.i
+
+# target to preprocess a source file
+src/Grid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Grid.cpp.i
+.PHONY : src/Grid.cpp.i
+
+src/Grid.s: src/Grid.cpp.s
+.PHONY : src/Grid.s
+
+# target to generate assembly for a file
+src/Grid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Grid.cpp.s
+.PHONY : src/Grid.cpp.s
+
 src/Projectile.obj: src/Projectile.cpp.obj
 .PHONY : src/Projectile.obj
 
@@ -526,6 +550,9 @@ help:
 	@echo ... src/GameObject.obj
 	@echo ... src/GameObject.i
 	@echo ... src/GameObject.s
+	@echo ... src/Grid.obj
+	@echo ... src/Grid.i
+	@echo ... src/Grid.s
 	@echo ... src/Projectile.obj
 	@echo ... src/Projectile.i
 	@echo ... src/Projectile.s

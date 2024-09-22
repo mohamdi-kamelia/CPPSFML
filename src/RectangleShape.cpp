@@ -4,6 +4,8 @@ RectangleShape::RectangleShape(float x, float y, int width, int height, sf::Colo
     rectangle.setPosition(x, y);
     rectangle.setSize(sf::Vector2f(width, height));
     rectangle.setFillColor(color);
+    rectangle.setOutlineThickness(1);
+    rectangle.setOutlineColor(sf::Color::White);
 }
 
 void RectangleShape::draw(sf::RenderWindow& window) {
