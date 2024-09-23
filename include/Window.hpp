@@ -17,7 +17,6 @@ class Window {
         sf::Event event;
         sf::Clock clock;
         float deltaTime;
-        std::vector<sf::Event> events;
 
     public:
         Window(int width, int height, std::string title);
@@ -27,7 +26,7 @@ class Window {
         float getDeltaTime();
         int getWidth();
         int getHeight();
-        std::vector<sf::Event> getEvents();
+        void lose();
 };
 
 #endif

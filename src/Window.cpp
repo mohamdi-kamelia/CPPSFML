@@ -51,6 +51,18 @@ int Window::getHeight() {
     return window.getSize().y;
 }
 
-std::vector<sf::Event> Window::getEvents() {
-    return events;
+void Window::lose() {
+    window.clear();
+    sf::Font font;
+    font.loadFromFile("../assets/arial.ttf");
+    sf::Text text;
+    text.setFont(font);
+    text.setString("You lost!");
+    text.setCharacterSize(24);
+    text.setFillColor(sf::Color::Red);
+    text.setPosition(window.getSize().x / 2 - text.getGlobalBounds().width / 2, window.getSize().y / 2 - text.getGlobalBounds().height / 2);
+    window.draw(text);
+    window.display();
+    sf::sleep(sf::seconds(2));
+    window.close();
 }

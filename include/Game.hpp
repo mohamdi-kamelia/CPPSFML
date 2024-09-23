@@ -17,8 +17,9 @@ class Game {
         void addProjectile(std::shared_ptr<Projectile> projectile);
         void removeBlock(std::shared_ptr<Block> block);
         void setBlocks(std::vector<std::shared_ptr<Block>> blocks);
-        void handleEvents(Window& window);
         void addPlatform(std::shared_ptr<Platform>& platform);
+        void lose(Window& window);
+        bool checkLose(Window& window);
 
 
     private:

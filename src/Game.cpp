@@ -10,6 +10,10 @@ void Game::run(Window& window) {
 
         deltaTime = window.getDeltaTime();
 
+        if (checkLose(window)) {
+            lose(window);
+        }
+
         // Move projectiles and handle border collisions
         for (std::shared_ptr<Projectile> projectile : projectiles) {
             projectile->move(deltaTime, projectile->getDirection());
@@ -95,24 +99,19 @@ void Game::setBlocks(std::vector<std::shared_ptr<Block>> blocks) {
     this->blocks = blocks;
 }
 
-// Handles events
-void Game::handleEvents(Window& window) {
-    std::vector<sf::Event> events = window.getEvents();
-    for (sf::Event event : events) {
-        if (event.type == sf::Event::KeyPressed) {
-            if (event.key.code == sf::Keyboard::Q) {
-                platform->move("left");
-                std::cout << "Q" << std::endl;
-            }
-            else if (event.key.code == sf::Keyboard::D) {
-                platform->move("right");
-                std::cout << "D" << std::endl;
-            }
-        }
-        }
-    events.clear();
-}
-
 void Game::addPlatform(std::shared_ptr<Platform>& platform) {
     this->platform = platform;
+}
+
+void Game::lose(Window& window) {
+    window.lose();
+}
+
+bool Game::checkLose(Window& window) {
+    for (std::shared_ptr<Projectile> projectile : projectiles) {
+        if (projectile->getShape()->getBounds().top + projectile->getShape()->getBounds().height > window.getHeight()) {
+            return true;
+        }
+    }
+    return false;
 }
