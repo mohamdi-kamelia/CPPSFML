@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Jean/CPPSFML/src/Game.cpp" "CMakeFiles/main.dir/src/Game.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Game.cpp.obj.d"
   "C:/Users/Jean/CPPSFML/src/GameObject.cpp" "CMakeFiles/main.dir/src/GameObject.cpp.obj" "gcc" "CMakeFiles/main.dir/src/GameObject.cpp.obj.d"
   "C:/Users/Jean/CPPSFML/src/Grid.cpp" "CMakeFiles/main.dir/src/Grid.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Grid.cpp.obj.d"
+  "C:/Users/Jean/CPPSFML/src/Platform.cpp" "CMakeFiles/main.dir/src/Platform.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Platform.cpp.obj.d"
   "C:/Users/Jean/CPPSFML/src/Projectile.cpp" "CMakeFiles/main.dir/src/Projectile.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Projectile.cpp.obj.d"
   "C:/Users/Jean/CPPSFML/src/RectangleShape.cpp" "CMakeFiles/main.dir/src/RectangleShape.cpp.obj" "gcc" "CMakeFiles/main.dir/src/RectangleShape.cpp.obj.d"
   "C:/Users/Jean/CPPSFML/src/Window.cpp" "CMakeFiles/main.dir/src/Window.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Window.cpp.obj.d"

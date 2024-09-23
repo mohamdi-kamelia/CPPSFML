@@ -5,6 +5,7 @@
 #include "RectangleShape.hpp"
 #include "CircleShape.hpp"
 #include "Grid.hpp"
+#include "Platform.hpp"
 
 
 #include <iostream>
@@ -25,6 +26,9 @@ int main() {
     auto projectile = std::make_shared<Projectile>(550, 600, 400, circleShape, sf::Vector2f(1,-1));
 
     game.addProjectile(projectile);
+
+    auto platform = std::make_shared<Platform>(screenWidth/2, screenHeight - 50, 50, std::make_shared<RectangleShape>(screenWidth/2, screenHeight - 50, 200, 25, sf::Color::Green));
+    game.addPlatform(platform);
 
 
     game.run(window);

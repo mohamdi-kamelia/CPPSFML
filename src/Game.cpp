@@ -6,7 +6,7 @@ Game::Game() {
 // Runs the Game
 void Game::run(Window& window) {
     while (window.isOpen()) {
-        window.pollEvents();
+        window.pollEvents(platform);
 
         deltaTime = window.getDeltaTime();
 
@@ -14,10 +14,13 @@ void Game::run(Window& window) {
         for (std::shared_ptr<Projectile> projectile : projectiles) {
             projectile->move(deltaTime, projectile->getDirection());
             std::string side = Collision::checkBorderCollision(projectile, window.getWidth(), window.getHeight());
-            if (side == "top" || side == "bottom") {
+            if (side == "top") {
                 projectile->bounceY();
             } else if (side == "left" || side == "right") {
                 projectile->bounceX();
+            }
+            if (Collision::checkPlatformCollision(platform, projectile)) {
+                projectile->bounceY();
             }
         }
 
@@ -69,7 +72,7 @@ void Game::run(Window& window) {
         }
 
         // Draw the window
-        window.draw(projectiles, blocks);
+        window.draw(projectiles, blocks, platform);
     }
 }
 
@@ -90,4 +93,26 @@ void Game::removeBlock(std::shared_ptr<Block> block) {
 
 void Game::setBlocks(std::vector<std::shared_ptr<Block>> blocks) {
     this->blocks = blocks;
+}
+
+// Handles events
+void Game::handleEvents(Window& window) {
+    std::vector<sf::Event> events = window.getEvents();
+    for (sf::Event event : events) {
+        if (event.type == sf::Event::KeyPressed) {
+            if (event.key.code == sf::Keyboard::Q) {
+                platform->move("left");
+                std::cout << "Q" << std::endl;
+            }
+            else if (event.key.code == sf::Keyboard::D) {
+                platform->move("right");
+                std::cout << "D" << std::endl;
+            }
+        }
+        }
+    events.clear();
+}
+
+void Game::addPlatform(std::shared_ptr<Platform>& platform) {
+    this->platform = platform;
 }

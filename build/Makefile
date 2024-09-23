@@ -439,6 +439,30 @@ src/Grid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Grid.cpp.s
 .PHONY : src/Grid.cpp.s
 
+src/Platform.obj: src/Platform.cpp.obj
+.PHONY : src/Platform.obj
+
+# target to build an object file
+src/Platform.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Platform.cpp.obj
+.PHONY : src/Platform.cpp.obj
+
+src/Platform.i: src/Platform.cpp.i
+.PHONY : src/Platform.i
+
+# target to preprocess a source file
+src/Platform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Platform.cpp.i
+.PHONY : src/Platform.cpp.i
+
+src/Platform.s: src/Platform.cpp.s
+.PHONY : src/Platform.s
+
+# target to generate assembly for a file
+src/Platform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Platform.cpp.s
+.PHONY : src/Platform.cpp.s
+
 src/Projectile.obj: src/Projectile.cpp.obj
 .PHONY : src/Projectile.obj
 
@@ -553,6 +577,9 @@ help:
 	@echo ... src/Grid.obj
 	@echo ... src/Grid.i
 	@echo ... src/Grid.s
+	@echo ... src/Platform.obj
+	@echo ... src/Platform.i
+	@echo ... src/Platform.s
 	@echo ... src/Projectile.obj
 	@echo ... src/Projectile.i
 	@echo ... src/Projectile.s

@@ -16,14 +16,11 @@ std::string Collision::checkBorderCollision(std::shared_ptr<Projectile> projecti
         return "right";
     } else if (projectileBounds.top < 0) {
         projectile->setY(0); // Move away from the top boundary to prevent it to be stuck on a side
-        return "top";
-    
-    // Remove the statement below when the platform is implemented
-    } else if (projectileBounds.top + projectileBounds.height > height) {
-        projectile->setY(height - projectileBounds.height); // Move away from the bottom boundary to prevent it to be stuck on a side
-        return "bottom";
+        return "top";    
     }
-    return "";
+    else {
+        return "";
+    }
 }
 
 // Returns a string representing the side of the block that the projectile collided with. (top, bottom, left, right)
@@ -47,4 +44,8 @@ std::string Collision::checkSide(std::shared_ptr<Block> block, std::shared_ptr<P
     } else {
         return dy > 0 ? "bottom" : "top";
     }
+}
+
+bool Collision::checkPlatformCollision(std::shared_ptr<Platform> platform, std::shared_ptr<Projectile> projectile) {
+    return platform->getShape()->getBounds().intersects(projectile->getShape()->getBounds());
 }
